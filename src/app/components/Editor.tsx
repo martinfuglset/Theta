@@ -16,7 +16,10 @@ const ScriptEditor: React.FC<EditorProps> = ({ script, setScript }) => {
       value={script}
       onChange={(value) => setScript(value || '')}
       theme="vs-dark"
-      options={{ minimap: { enabled: false } }}
+      options={{
+        minimap: { enabled: false },
+        readOnly: false,
+      }}
     />
   );
 };
