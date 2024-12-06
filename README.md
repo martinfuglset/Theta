@@ -1,1 +1,1 @@
-Online statistcs app
+Application for Data Analytics.
